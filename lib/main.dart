@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_animation/ui/login/login_anim.dart';
 import 'package:flutter_animation/ui/search/search.dart';
 
 import 'ui/login.dart';
@@ -16,7 +17,7 @@ class MyApp extends StatelessWidget {
         primarySwatch: Colors.blue,
         visualDensity: VisualDensity.adaptivePlatformDensity,
       ),
-      home: Search(),
+      home: LoginAnim(),
     );
   }
 }
